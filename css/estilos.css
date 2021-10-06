@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tarjeta-principal{
+    background-color: white;
+    width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta-cabecera{
+    width: 100%;
+}
+
+.tarjeta-relleno{
+    text-align: center;
+    border-bottom: 1px solid hsla(0, 0%, 59%, 0.26);
+}
+
+.tarjeta-relleno h2{
+    margin-top: 15px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.tarjeta-relleno span{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.tarjeta-relleno p{
+    color: hsl(0, 0%, 59%);
+    margin-top:-5px;
+}
+
+.tarjeta-imagen{
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -53px;
+    background-color: white;
+}
+
+.tarjeta-redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tarjeta-media{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.tarjeta-media h4{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.tarjeta-media p{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 1px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
